@@ -29,3 +29,24 @@
     <ProjectReference Include="..\TechJobs6Persistent\TechJobs6Persistent.csproj" />
   </ItemGroup>
 </Project>
+
+<!-- 
+Task 1: 
+  Columns:
+    Id
+      type: int
+    Name
+      type: string
+    EmpployerId
+      type: class
+      
+Task 2: 
+  SELECT *
+  FROM employers
+  WHERE Location = 'St. Louis City';
+
+Task 3:
+  SELECT JobsId, SkillsId
+  FROM jobskills
+  ORDER BY SkillsId ASC;
+  -->
